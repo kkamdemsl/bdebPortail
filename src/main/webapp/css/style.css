@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+
+body{
+	background-color:cadetblue;
+}
+
+h1{
+	font-size: 60px;
+	
+}
+h1:hover{
+	color: white;
+}
+
+#header{
+	display: flex;
+	justify-content: center;
+}
+
+#content{
+	display: flex;
+	justify-content: center;
+	margin-top: 3%;
+	
+}
+
+table{
+	border: black 5px solid;
+	border-radius: 10px;
+	height: 400px;
+	width: 650px;
+}
+
+th{
+	font-size: 25px;
+	width: 200px;
+	border-radius: 10px;
+	border: black 3px solid;
+	background-color:dimgray;
+	color: white;
+}
+
+td{
+	font-size: 20px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+	border: black 2px solid;
+	
+}
+
+#tdEmail{
+	font-size: 20px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	width: 230px;
+}
+
+
+#thEmail{
+	width: 230px;
+}
+
+/* Applica uno stile alle righe alternate con sfondo grigio chiaro */
+table tr:nth-child(even) {
+    background-color:darkgrey;
+}
+
+
+/* Stile per le righe quando si passa il mouse sopra di esse */
+table tr:hover {
+    background-color: #ddd; /* Cambia il colore di sfondo al passaggio del mouse */
+    cursor: pointer; /* Cambia il cursore del mouse quando si passa sopra una riga */
+}
